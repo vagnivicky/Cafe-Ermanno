@@ -1,0 +1,164 @@
+body{color: white;}
+
+
+.font{color: black;
+    font-family: "Merriweather", serif;
+    font-weight: 200;
+    font-style: normal;
+    justify-self: center;
+width: 100%;
+font-size: 2rem;}
+
+p{color: black;
+    font-family: "Merriweather", serif;
+    font-weight: 200;
+    font-style: normal;
+    justify-self: center;
+width: 100%;
+font-size: 2rem;}
+
+h1{
+    color:black ;
+    background-color: white;
+    font-size: 50px;
+    width: 100%; 
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    text-wrap: nowrap;
+    font-weight: 100;
+width: 100%;
+font-size: 4rem;}
+
+*{
+    margin: 20;
+    padding:20;
+    box-sizing: border-box;
+}
+.barra{
+    background-color:beige;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    color: black;
+    text-align: center;
+    font-weight: 300;
+    height: 40px;
+    align-items: center;
+}
+.barra li a{
+    text-decoration: none;
+    color: black;
+    margin: 30px;}
+.barra li a:hover{
+    color:brown;
+    text-decoration: underline;}
+.pestaña li a:hover{
+    color:brown;
+    text-decoration: underline;}
+
+.pestaña li a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    margin: 110px;}
+
+.pie-de-pagina li a {
+    text-decoration: none;
+    margin: 20px;}
+
+.centro{
+    color: black;
+text-align: center;
+    font-weight: 200;
+    width: 100%;
+    font-size: 4rem;
+    font-size: 2em;}
+
+
+.cuerpo{
+        display: flex;
+        flex-direction:row;
+        justify-content: center;
+        align-items: center;
+        position: sticky;
+        color: black;
+        background-color:white;
+        font-weight: 400;
+        width: 100%;
+        font-size: 2rem;}
+
+.pestaña{
+    display: flex;
+    justify-content: center;
+    color: black;
+    text-align: center;
+    font-weight: 200;
+    list-style: none;}
+
+.pie-de-pagina{
+    display: flex;
+    list-style: none;
+        justify-content: right;
+        background-color: beige;
+        position: sticky;
+        color: black;
+        font-weight: 400;
+    font-size: 2rem;}
+
+.foto{
+    width: 180px;
+    margin: 0 60px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    background-position: center;
+    background-size: contain;
+flex-wrap: wrap;}
+
+.portada{
+    width: 100%;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fotomenu{
+    width: 100%;}
+iframe{
+    padding: 70px;
+    align-items: start;}
+
+.fotoau{
+        width: 60%;
+        height: 480px;
+        align-items: center;
+        display: flex;
+        }
+
+footer{
+    background-color:beige;
+}
+h2{
+color: black;
+text-align: center;
+justify-content: center;}
+
+@media (max-width: 1024px) { 
+    header{width: 100%;
+        justify-content: space-around;
+    width: 0px 10px;}
+    h1{font-weight: 6.25rem;
+    justify-content: center;
+align-items: center;}
+}
+@media (max-width: 768px) {
+    .cuerpo{width: 100%;
+        flex-direction: column;
+    align-items: center;}
+
+
+.pestaña{flex-direction: column;
+    align-items: center;}} 
+
