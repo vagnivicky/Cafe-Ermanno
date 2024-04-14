@@ -185,9 +185,7 @@ align-items: center;}
 footer{align-items: center;
     flex-direction: column;}
     .mapa{align-items: center;
-        justify-content: center; }
-
-
+        justify-content: center; }}
 @media (max-width:320px) {
     h1{font-size: small;}
     .barra{font: size 100%;;}
@@ -199,9 +197,16 @@ footer{align-items: center;
         justify-content: center;
         flex-direction: column;
     width: 80px;}
+    .foto{width: 20px;}
     footer{width: 300px;
         align-items: center;
     flex-direction: column;}
 .mapa{align-items: center;
 justify-content: center;}}
 
+.barra li:hover{
+transform: scale(1.2);
+}
+.pestaña li:hover{
+    transform: scale(1.2);
+}
