@@ -17,6 +17,8 @@
 
 
 
+
+
 .font{color: black;
     font-family: "Merriweather", serif;
     font-weight: 200;
@@ -62,6 +64,20 @@ font-size: 4rem;}
     height: 40px;
     align-items: center;
 }
+.card{
+    align-items: center;
+    color: black;
+    font-family: "Merriweather", serif;
+    font-weight: 200;
+    font-style: normal;
+    justify-self: center;
+}
+.frase{align-items: center;
+    color: black;
+    font-family: "Merriweather", serif;
+    font-weight: 200;
+    font-style: normal;
+    justify-self: center;}
 .barra li a{
     text-decoration: none;
     color: black;
@@ -127,7 +143,7 @@ text-align: center;
     margin: 0 60px;
     display: flex;
     justify-content: center;
-    align-items: start;
+    align-items: center;
     background-position: center;
     background-size: contain;
 flex-wrap: wrap;}
@@ -147,15 +163,21 @@ iframe{
     align-items: start;}
 
 .fotoau{
-        width: 60%;
-        height: 480px;
-        align-items: center;
-        display: flex;
-        }
+    width: 180px;
+    margin: 0 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: contain;
+flex-wrap: wrap;}
 
 footer{
     background-color:beige;
 }
+.mapa{align-items: start;
+flex-direction: column;
+display: flex;}
 h2{
 color: black;
 text-align: center;
@@ -170,11 +192,39 @@ justify-content: center;}
 align-items: center;}
 }
 @media (max-width: 768px) {
-    .cuerpo{width: 100%;
+    .cuerpo{width: 80%;
         flex-direction: column;
     align-items: center;}
+    h1{font-size: medium;}
+.barra{font-size: medium;}
+.pestaña{text-align: center;
+    justify-content: center;
+    flex-direction: column;}
+footer{align-items: center;
+    flex-direction: column;}
+    .mapa{align-items: center;
+        justify-content: center; }}
+@media (max-width:320px) {
+    h1{font-size: small;}
+    .barra{font: size 100%;;}
+    .cuerpo{width: 40%; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;}
+    .pestaña{text-align: center;
+        justify-content: center;
+        flex-direction: column;
+    width: 80px;}
+    .foto{width: 20px;}
+    footer{width: 300px;
+        align-items: center;
+    flex-direction: column;}
+.mapa{align-items: center;
+justify-content: center;}}
 
-
-.pestaña{flex-direction: column;
-    align-items: center;}} 
-
+.barra li:hover{
+transform: scale(1.2);
+}
+.pestaña li:hover{
+    transform: scale(1.2);
+}
