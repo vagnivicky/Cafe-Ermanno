@@ -1,0 +1,15 @@
+@import"../layout/main";
+.footer{
+    .pie-de-pagina{
+        display: flex;
+    list-style: none;
+        justify-content: right;
+        background-color: beige;
+        position: sticky;
+        color: black;
+        font-weight: 400;
+    font-size: 2rem;    }
+    .h2{color: black;
+        text-align: center;
+        justify-content: center;} 
+} 

@@ -1,3 +1,19 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+/**archivos de utilities/**
+
+/** archivos de base**/
+@import "./base/reset";
+
+/** archivos de layout**/
+@import"./layout/header";
+@import "./layout/main";
+@import "./layout/footer";
+
+/**components**/
+@import "./components/card";
 
 
 
@@ -46,20 +62,6 @@ font-size: 4rem;}
     height: 40px;
     align-items: center;
 }
-.card{
-    align-items: center;
-    color: black;
-    font-family: "Merriweather", serif;
-    font-weight: 200;
-    font-style: normal;
-    justify-self: center;
-}
-.frase{align-items: center;
-    color: black;
-    font-family: "Merriweather", serif;
-    font-weight: 200;
-    font-style: normal;
-    justify-self: center;}
 .barra li a{
     text-decoration: none;
     color: black;
@@ -125,7 +127,7 @@ text-align: center;
     margin: 0 60px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     background-position: center;
     background-size: contain;
 flex-wrap: wrap;}
@@ -145,21 +147,15 @@ iframe{
     align-items: start;}
 
 .fotoau{
-    width: 180px;
-    margin: 0 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-position: center;
-    background-size: contain;
-flex-wrap: wrap;}
+        width: 60%;
+        height: 480px;
+        align-items: center;
+        display: flex;
+        }
 
 footer{
     background-color:beige;
 }
-.mapa{align-items: start;
-flex-direction: column;
-display: flex;}
 h2{
 color: black;
 text-align: center;
@@ -174,34 +170,11 @@ justify-content: center;}
 align-items: center;}
 }
 @media (max-width: 768px) {
-    .cuerpo{width: 80%;
+    .cuerpo{width: 100%;
         flex-direction: column;
     align-items: center;}
-    h1{font-size: medium;}
-.barra{font-size: medium;}
-.pestaña{text-align: center;
-    justify-content: center;
-    flex-direction: column;}
-footer{align-items: center;
-    flex-direction: column;}
-    .mapa{align-items: center;
-        justify-content: center; }
 
 
-@media (max-width:320px) {
-    h1{font-size: small;}
-    .barra{font: size 100%;;}
-    .cuerpo{width: 40%; 
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;}
-    .pestaña{text-align: center;
-        justify-content: center;
-        flex-direction: column;
-    width: 80px;}
-    footer{width: 300px;
-        align-items: center;
-    flex-direction: column;}
-.mapa{align-items: center;
-justify-content: center;}}
+.pestaña{flex-direction: column;
+    align-items: center;}} 
 
