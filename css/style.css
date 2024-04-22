@@ -1,5 +1,8 @@
 
-
+*{
+    margin: 20;
+    padding:20;
+    box-sizing: border-box;}
 
 .font{color: black;
     font-family: "Merriweather", serif;
@@ -7,7 +10,7 @@
     font-style: normal;
     justify-self: center;
 width: 100%;
-font-size: 2rem;}
+font-size: 20px;}
 
 p{color: black;
     font-family: "Merriweather", serif;
@@ -30,11 +33,8 @@ h1{
 width: 100%;
 font-size: 4rem;}
 
-*{
-    margin: 20;
-    padding:20;
-    box-sizing: border-box;
-}
+
+
 .barra{
     background-color:beige;
     list-style: none;
@@ -146,13 +146,13 @@ iframe{
 
 .fotoau{
     width: 180px;
-    margin: 0 60px;
+    text-align: center;
+    margin: 0px 60px 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-position: center;
-    background-size: contain;
-flex-wrap: wrap;}
+    background-size: contain;}
 
 footer{
     background-color:beige;
@@ -161,6 +161,7 @@ footer{
 flex-direction: column;
 display: flex;}
 h2{
+    font-weight: 20px;
 color: black;
 text-align: center;
 justify-content: center;}
