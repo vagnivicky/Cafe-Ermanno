@@ -75,7 +75,7 @@ font-size: 4rem;}
     list-style: none;
     text-decoration: none;
     color: black;
-    margin: 110px;}
+    margin: 20px;}
 
 .pie-de-pagina li a {
     text-decoration: none;
@@ -197,7 +197,9 @@ footer{align-items: center;
         justify-content: center;
         flex-direction: column;
     width: 80px;}
-    .foto{width: 20px;}
+    .foto{width: 120px;
+        justify-content: center;
+    }
     footer{width: 300px;
         align-items: center;
     flex-direction: column;}
@@ -209,4 +211,23 @@ transform: scale(1.2);
 }
 .pestaña li:hover{
     transform: scale(1.2);
+}
+
+.about{
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+}
+.coffee{
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+}
+.espresso{
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
 }
