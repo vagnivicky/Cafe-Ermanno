@@ -170,6 +170,7 @@ color: black;
 text-align: center;
 justify-content: center;}
 
+
 @media (max-width: 1024px) { 
     header{width: 100%;
         justify-content: space-around;
@@ -193,7 +194,7 @@ footer{align-items: center;
         justify-content: center; }}
 @media (max-width:320px) {
     h1{font-size: small;}
-    .barra{width: 40% ;}
+    .barra{width: 40% ;} 
     .cuerpo{width: 40%; 
     align-items: center;
     justify-content: center;
