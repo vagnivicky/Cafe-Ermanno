@@ -140,11 +140,16 @@ flex-wrap: wrap;}
 
 .fotomenu{
     width: 100%;}
-iframe{
-    padding: 70px;
+
+iframe .mapa{
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    margin: 10px;
+    gap: 10px;
     align-items: start;}
 
-.fotoau{
+.foto-au{
     width: 180px;
     text-align: center;
     margin: 0px 60px 10px;
@@ -189,7 +194,7 @@ footer{align-items: center;
         justify-content: center; }}
 @media (max-width:320px) {
     h1{font-size: small;}
-    .barra{font: size 100%;;}
+    .barra{font: size 250px;}
     .cuerpo{width: 40%; 
     align-items: center;
     justify-content: center;
@@ -197,15 +202,18 @@ footer{align-items: center;
     .pestaña{text-align: center;
         justify-content: center;
         flex-direction: column;
-    width: 80px;}
+    width: 60px;}
     .foto{width: 120px;
         justify-content: center;
     }
-    footer{width: 300px;
+    footer{width: 100%;
         align-items: center;
     flex-direction: column;}
-.mapa{align-items: center;
-justify-content: center;}}
+iframe {align-items: center;
+justify-content: center;
+width: 100px;
+height: 100px;
+flex-direction:column;}}
 
 .barra li:hover{
 transform: scale(1.2);
