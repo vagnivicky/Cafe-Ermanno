@@ -122,6 +122,7 @@ h1{
 .pestaña{
     display: flex;
     justify-content: center;
+    align-items: center;
     color: black;
     text-align: center;
     font-weight: 200;
@@ -214,7 +215,7 @@ align-items: center;}
 @media (max-width: 768px) {
     .barra li:hover{
         transform: scale(1.2);}
-        .pestaña li:hover{
+    .pestaña li:hover{
         transform: scale(1.2);}
     .cuerpo{width: 80%;
     flex-direction: column;
@@ -239,6 +240,14 @@ footer{align-items: center;
     margin: 0;
     padding: 0%;
     gap: 0;} 
+    .cuerpo{
+        flex-direction: column;
+        font-size: small;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        display: block;
+        padding: 20px;}
     footer{width: 100%;
         align-items: center;
     flex-direction: column;}
