@@ -217,7 +217,7 @@ align-items: center;}
         .pestaña li:hover{
         transform: scale(1.2);}
     .cuerpo{width: 80%;
-        flex-direction: column;
+    flex-direction: column;
     align-items: center;}
     h1{font-size: medium;}
 .barra{font-size: medium;}
@@ -228,22 +228,7 @@ footer{align-items: center;
     flex-direction: column;}
     .mapa{align-items: center;
         justify-content: center; }}
-@media (max-width:320px)
-    #about{
-    width: 180px;
-    margin: 0 auto;
-    display: block;
-}
-#our{
-    width: 180px;
-    margin: 0 auto;
-    display: block;}
-#espresso{
-    width: 180px;
-    margin: 0 auto;
-    display: block;
-}
- {
+@media (max-width:320px){
     box-sizing: .centro;
     .barra li:hover{
     transform: scale(1.2);}
@@ -254,9 +239,6 @@ footer{align-items: center;
     margin: 0;
     padding: 0%;
     gap: 0;} 
-    .cuerpo{width: 40%; 
-    flex-direction: column;
-    align-self: center;}
     footer{width: 100%;
         align-items: center;
     flex-direction: column;}
