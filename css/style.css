@@ -180,6 +180,10 @@ justify-content: center;}
 align-items: center;}
 }
 @media (max-width: 768px) {
+    .barra li:hover{
+        transform: scale(1.2);}
+        .pestaña li:hover{
+        transform: scale(1.2);}
     .cuerpo{width: 80%;
         flex-direction: column;
     align-items: center;}
@@ -193,18 +197,22 @@ footer{align-items: center;
     .mapa{align-items: center;
         justify-content: center; }}
 @media (max-width:320px) {
+    box-sizing: .centro;
+    .barra li:hover{
+    transform: scale(1.2);}
+    .pestaña li:hover{
+    transform: scale(1.2);}
     h1{font-size: small;}
     .barra{width: 40% ;} 
     .cuerpo{width: 40%; 
     align-items: center;
-    justify-content: center;
     flex-direction: column;}
     .pestaña{text-align: center;
         justify-content: center;
         flex-direction: column;
     width: 60px;}
     .foto{width: 120px;
-        justify-content: center;
+        align-items: center;
     }
     footer{width: 100%;
         align-items: center;
