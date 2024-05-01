@@ -17,7 +17,8 @@ p{color: black;
     font-style: normal;
     justify-self: center;
 width: 100%;
-font-size: 2rem;} 
+font-size: 2rem;
+text-align: center;} 
 
 h1{
     color:black ;
@@ -33,7 +34,7 @@ h1{
     font-size: 4rem;
     margin-bottom: 20px;}
 
-
+h3{text-align: right;}
 
 
 .barra{
@@ -104,8 +105,8 @@ h1{
         font-size: 2rem;
         margin-top: 20px;}
 
-
-
+.frase{text-align: left;}
+ 
 #about{
     width: 180px;
     margin: 0 auto;
@@ -200,7 +201,7 @@ display: flex;}
 h2{
     font-weight: 20px;
 color: black;
-text-align: center;
+text-align: right;
 justify-content: center;}
 
 
@@ -237,7 +238,10 @@ footer{align-items: center;
     transform: scale(1.2);}
     .pestaña li:hover{
     transform: scale(1.2);}
-    h1{font-size: small;}
+    h1{font-size: 20px;
+    justify-content: center;
+     align-items: center;
+    margin: 10px;}
     .barra{width: 100% ;
     margin: 0;
     padding: 0%;
@@ -253,10 +257,14 @@ footer{align-items: center;
     footer{width: 100%;
         align-items: center;
     flex-direction: column;}
+    h2{text-align: right;
+    margin: 10px;}
+    .frase{font-size: 15px;
+    margin: 10px;}
 iframe {align-items: center;
 justify-content: center;
-width: 100px;
-height: 100px;
+width: 180px;
+height: 180px;
 flex-direction:column;}
 }
 
